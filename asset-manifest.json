@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f06ca9a2.css",
-    "main.js": "/static/js/main.40227c30.js",
+    "main.js": "/static/js/main.5b750649.js",
     "static/media/profile.png": "/static/media/profile.0e8880b300f61902e703.png",
     "static/media/calendly.jpg": "/static/media/calendly.b7e889513f6c8ac78bb5.jpg",
     "static/media/linkedin.jpg": "/static/media/linkedin.2c77993107c982a8b050.jpg",
     "index.html": "/index.html",
     "main.f06ca9a2.css.map": "/static/css/main.f06ca9a2.css.map",
-    "main.40227c30.js.map": "/static/js/main.40227c30.js.map"
+    "main.5b750649.js.map": "/static/js/main.5b750649.js.map"
   },
   "entrypoints": [
     "static/css/main.f06ca9a2.css",
-    "static/js/main.40227c30.js"
+    "static/js/main.5b750649.js"
   ]
 }
