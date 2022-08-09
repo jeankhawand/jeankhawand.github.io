@@ -1,6 +1,6 @@
 {
-  "name": "Jean's Link",
-  "short_name": "Jean's Link",
+  "name": "Jean's Links",
+  "short_name": "Jean's Links",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
