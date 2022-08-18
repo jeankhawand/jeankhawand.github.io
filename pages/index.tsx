@@ -19,10 +19,16 @@ const IndexPage = () => {
         <meta name="description" content="Jean's Links"/>
         <meta property="og:url" content="https://www.jeankhawand.com"/>
         <meta property='og:image' content="https://www.jeankhawand.com/images/og-image.png"/>
+        <meta property='og:image:url' content="https://www.jeankhawand.com/images/og-image.png"/>
         <meta property="og:image:secure_url" content="https://www.jeankhawand.com/images/og-image.png" />
         <meta property="og:type" content="website"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:title" content="Jean's Links"/>
+        <meta itemProp="name" content="Jean Khawand" />
+        <meta itemProp="headline" content="Jean's Links" />
+        <meta itemProp="description" content="Jean's Links" />
+        <meta itemProp="image" content="https://www.jeankhawand.com/images/og-image.png" />
+        <meta itemProp="author" content="Jean Khawand" />
         <meta property="og:description" content="Jean's Links"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:image" content="https://www.jeankhawand.com/images/og-image.png"/>
