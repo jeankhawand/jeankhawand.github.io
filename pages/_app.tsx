@@ -1,7 +1,7 @@
 import '../styles/global.css'
-import ReactGA from 'react-ga'
+import mixpanel from 'mixpanel-browser';
 function MyApp({ Component, pageProps }) {
-  ReactGA.initialize('UA-131075056-2')
+  mixpanel.init('9d9e82201e543f3157709d67f80f69ae', { debug: true, track_pageview: true, persistence: 'localStorage' });
   return <Component {...pageProps} />
 }
 

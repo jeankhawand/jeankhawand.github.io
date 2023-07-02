@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import Link from 'next/link';
-import ReactGA from 'react-ga';
+import Link from "next/link";
+import mixpanel from "mixpanel-browser";
 const SocialLink = (props) => {
   const variants = {
     visible: (i) => ({
@@ -18,15 +18,14 @@ const SocialLink = (props) => {
   };
   const trackEvent = (event, props) => {
     event.preventDefault();
-    ReactGA.event({
-      category: props.title,
-      action: 'Click',
-      label: 'SocialButton'
-    })
+    // Include a property about the signup, like the Signup Type
+    mixpanel.track("Click", {
+      "Action": "SocialButton",
+      "SocialButton": props.title,
+    });
     window.location.href = props.link;
-  }
+  };
   return (
-    
     <Link href={props.link} target="_blank">
       <motion.div
         className="py-2"
@@ -35,12 +34,15 @@ const SocialLink = (props) => {
         custom={props.i}
         variants={variants}
       >
-          <a onClick={(e)=>trackEvent(e,props)} className={`align-middle bg-white border-black border-2 hover:bg-black  w-full py-3 grow font-semibold text-black hover:text-white inline-flex content-center justify-center items-center rounded-full`}>
+        <a
+          onClick={(e) => trackEvent(e, props)}
+          className={`align-middle bg-white border-black border-2 hover:bg-black  w-full py-3 grow font-semibold text-black hover:text-white inline-flex content-center justify-center items-center rounded-full`}
+        >
           <span>{props.title}</span>
-    </a>
+        </a>
       </motion.div>
     </Link>
   );
-}
+};
 
 export default SocialLink;
