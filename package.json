@@ -6,7 +6,6 @@
   "author": "Jean Khawand <22157081+jeankhawand@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.1.2",
     "framer-motion": "^7.0.0",
     "next": "^12.2.4",
     "node": "^17.7.1",

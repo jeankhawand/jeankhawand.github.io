@@ -35,8 +35,7 @@ const SocialLink = (props) => {
         custom={props.i}
         variants={variants}
       >
-          <a onClick={(e)=>trackEvent(e,props)} className={`bg-white border-black border-2 hover:bg-black  px-5 w-full py-3 grow font-semibold text-black hover:text-white inline-flex content-center justify-center items-center space-x-5 rounded-full`}>
-          <i className={`fas ${props.icon}`}></i>
+          <a onClick={(e)=>trackEvent(e,props)} className={`align-middle bg-white border-black border-2 hover:bg-black  w-full py-3 grow font-semibold text-black hover:text-white inline-flex content-center justify-center items-center rounded-full`}>
           <span>{props.title}</span>
     </a>
       </motion.div>

@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
-@import "@fortawesome/fontawesome-free/css/all.min.css";
 body {
     background: linear-gradient(30deg, #e95950,#bc2a8d, #fccc63, #8a3ab9);
 	background-size: 450% 450%;
