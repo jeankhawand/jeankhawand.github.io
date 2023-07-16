@@ -46,12 +46,12 @@ const IndexPage = () => {
     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
       <div className="px-6">
         <div className="flex flex-wrap justify-center">
-          <div className="w-full px-10 py-2 flex justify-center">
-            <div className="relative">
+          <div className="w-full px-5 py-2 flex justify-center">
+            <div className=" rounded-full relative">
               <img
                 alt="Jean Khawand"
                 src="/images/profile.png"
-                className="rounded-full max-w-full h-auto w-32 h-32"
+                className="rounded-full w-32 h-32"
               />
             </div>
           </div>
@@ -69,11 +69,11 @@ const IndexPage = () => {
             Software Engineer
           </div>
           <div className="mb-2 text-blueGray-600 mt-2">
-            <i className="fas fa-message-quote mr-2 text-lg text-blueGray-400" />
-            Challenging the status quo 🚀
+            <i className="fas fa-quote-left mr-2 text-lg text-blueGray-400" />
+            Challenging the status quo 🚀 
           </div>
         </div>  
-        <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
+        <div className="mt-5 py-5 border-t border-blueGray-200 text-center">
         {items.map((item, i) => {
           return (
             <SocialLink

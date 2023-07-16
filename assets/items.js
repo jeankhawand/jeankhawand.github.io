@@ -1,19 +1,14 @@
 const items = [
   {
     title: "GitHub",
-    subtitle: "Check out my open source projects",
+    subtitle: "Check out my OSS Contributions",
     link: "https://github.com/jeankhawand",
   },
 
   {
     title: "LinkedIn",
-    subtitle: "Connect with me",
+    subtitle: "Connect with me on LinkedIn",
     link: "https://www.linkedin.com/in/jeankhawand",
-  },
-  {
-    title: "Blog",
-    subtitle: "Read my latest posts",
-    link: "https://blog.jeankhawand.com",
   },
   {
     title: "Chat",
@@ -21,8 +16,18 @@ const items = [
     link: "https://matrix.to/#/@jean:tchncs.de",
   },
   {
+    title: "Mastodon",
+    subtitle: "My opinions on the fediverse",
+    link: "https://social.tchncs.de/@jeankhawand",
+  },
+  {
+    title: "StackOverflow",
+    subtitle: "Contributions to public tech forums",
+    link: "https://stackoverflow.com/users/8440615/jeankhawand",
+  },
+  {
     title: "Calendly",
-    subtitle: "Let's discuss",
+    subtitle: "Schedule a meeting with me",
     link: "https://calendly.com/jeankhawand",
   },
 ];
