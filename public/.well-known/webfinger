@@ -1,19 +1,19 @@
 {
-  "subject": "acct:Jean@social.tchncs.de",
+  "subject": "acct:jeankhawand@social.tchncs.de",
   "aliases": [
-    "https://social.tchncs.de/@Jean",
-    "https://social.tchncs.de/users/Jean"
+    "https://social.tchncs.de/@jeankhawand",
+    "https://social.tchncs.de/users/jeankhawand"
   ],
   "links": [
     {
       "rel": "http://webfinger.net/rel/profile-page",
       "type": "text/html",
-      "href": "https://social.tchncs.de/@Jean"
+      "href": "https://social.tchncs.de/@jeankhawand"
     },
     {
       "rel": "self",
       "type": "application/activity+json",
-      "href": "https://social.tchncs.de/users/Jean"
+      "href": "https://social.tchncs.de/users/jeankhawand"
     },
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
