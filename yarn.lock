@@ -1345,10 +1345,6 @@ minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
 
-mixpanel-browser@^2.47.0:
-  version "2.47.0"
-  resolved "https://registry.npmjs.org/mixpanel-browser/-/mixpanel-browser-2.47.0.tgz"
-
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -1627,10 +1623,6 @@ react-dom@^18.0.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
-
-react-ga@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/react-ga/-/react-ga-3.3.1.tgz"
 
 react-is@^16.13.1:
   version "16.13.1"
