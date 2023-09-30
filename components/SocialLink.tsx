@@ -24,7 +24,7 @@ const SocialLink = (props) => {
     event.preventDefault();
     // Include a property about the signup, like the Signup Type
     window.goatcounter.count({
-      path: "SocialButton",
+      path: props.link,
       title: props.title,
       event: true,
     });
