@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import mixpanel from "mixpanel-browser";
+declare global {
+  interface Window {
+    goatcounter: any;
+  }
+}
 const SocialLink = (props) => {
   const variants = {
     visible: (i) => ({
@@ -19,9 +23,10 @@ const SocialLink = (props) => {
   const trackEvent = (event, props) => {
     event.preventDefault();
     // Include a property about the signup, like the Signup Type
-    mixpanel.track("Click", {
-      "Action": "SocialButton",
-      "SocialButton": props.title,
+    window.goatcounter.count({
+      path: "SocialButton",
+      title: props.title,
+      event: true,
     });
     window.location.href = props.link;
   };
