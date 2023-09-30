@@ -41,7 +41,7 @@ const IndexPage = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-            <script data-goatcounter="https://jeankhawand.goatcounter.com/count"
+            <script data-goatcounter="https://ar2am.jeankhawand.com/count"
         async src="//gc.zgo.at/count.js"></script>
 <section className="pt-16 bg-blueGray-50">
   <div className="w-full lg:w-4/12 px-4 mx-auto">
